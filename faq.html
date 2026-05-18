@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ — Aprende CSS desde cero</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./estilos-faq.css">
+</head>
+
+<body>
+
+  <main class="faq">
+
+    <header class="faq__header">
+      <span class="faq__info">Curso de CSS</span>
+      <h1 class="faq__title">Preguntas frecuentes</h1>
+      <p class="faq__subtitle">
+        Todo lo que necesitas saber antes de empezar a aprender CSS desde cero.
+      </p>
+    </header>
+
+    <ul class="faq__list">
+
+      <li class="accordion">
+        <div class="accordion__bar"></div>
+
+
+        <details name="faq">
+          <summary class="accordion__summary">
+            <span class="accordion__question">
+              ¿Qué nivel necesito para empezar el curso?
+            </span>
+            <div class="accordion__icon">
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+            </div>
+          </summary>
+        </details>
+
+
+        <article class="accordion__body">
+          <div class="accordion__inner">
+            <div class="accordion__answer">
+              Solo necesitas saber HTML básico. El curso está diseñado para llevarte
+              de cero a manejar con confianza propiedades modernas como
+              <strong>@property, clip-path, :has(), :is() y CSS Grid</strong>.
+              Sin conocimiento previo de CSS avanzado.
+            </div>
+          </div>
+        </article>
+      </li>
+
+      <!-- Item 3 -->
+      <li class="accordion">
+        <div class="accordion__bar"></div>
+        <details name="faq">
+          <summary class="accordion__summary">
+            <span class="accordion__question">
+              ¿Aprenderé las mismas cosas que enseña YouTube gratis?
+            </span>
+            <div class="accordion__icon">
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+            </div>
+          </summary>
+        </details>
+        <div class="accordion__body">
+          <div class="accordion__inner">
+            <div class="accordion__answer">
+              YouTube enseña el <em>qué</em>. Este curso enseña el <em>por qué</em> y el <em>cómo</em>,
+              con proyectos reales y un hilo conductor que conecta cada concepto.
+              <strong>Los videos sueltos no reemplazan un aprendizaje estructurado.</strong>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Item 4 -->
+      <li class="accordion">
+        <div class="accordion__bar"></div>
+        <details name="faq">
+          <summary class="accordion__summary">
+            <span class="accordion__question">
+              ¿Cuánto tiempo tardaré en ver resultados reales?
+            </span>
+            <div class="accordion__icon">
+              <span class="line-1"></span>
+              <span class="line-2"></span>
+            </div>
+          </summary>
+        </details>
+        <div class="accordion__body">
+          <div class="accordion__inner">
+            <div class="accordion__answer">
+              En las primeras dos semanas ya construirás interfaces que antes parecían
+              imposibles sin JavaScript. El objetivo no es terminar el curso,
+              sino que en <strong>cada módulo tengas algo funcional para mostrar</strong>.
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Item 5 -->
+      <li class="accordion">
+        <div class="accordion__bar"></div>
+        <details name="faq">
+          <summary class="accordion__summary">
+            <span class="accordion__question">
+              ¿Vale la pena aprender CSS si la IA puede escribir código por mí?
+            </span>
+            <div class="accordion__icon">
+              <div class="accordion__icon">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+            </div>
+          </summary>
+        </details>
+        <div class="accordion__body">
+          <div class="accordion__inner">
+            <div class="accordion__answer">
+              La IA escribe <em>mejor</em> CSS cuando tú entiendes CSS.
+              Sabrás cuándo el output es correcto, cómo optimizarlo y
+              cómo pedirle exactamente lo que necesitas.
+              <strong>Quien no sabe CSS acepta cualquier cosa que genere la IA.</strong>
+            </div>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+
+
+    <a class="faq__btn" href="#">Empezar el curso ahora →</a>
+
+
+
+  </main>
+
+</body>
+
+</html>
